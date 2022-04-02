@@ -1,0 +1,28 @@
+
+body {
+    background-color: rgb(250, 242, 199);
+    font-size: 0.8em;
+}
+
+.chapter {
+    text-align: center;
+    color:brown
+}
+h1 {
+    text-align: center;
+    color:red;
+}
+
+#begin {
+    color:rgba(255, 0, 255, 0.8);
+    font-weight: bold;
+    font-style: italic;
+    /* text-decoration: underline; */
+    text-decoration: line-through;
+    font-size: 30px;
+}
+
+#text {
+    font-weight: bold;
+    text-transform: uppercase;
+}
