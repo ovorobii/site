@@ -14,6 +14,7 @@
 .container {
     width: 1140px;
     margin: 0 auto;
+    position: relative;
 }
 
 .logo .logo_img {
@@ -120,7 +121,7 @@ h2.title {
 }
 
 .expectation {
-    height: 604px   ;
+    min-height: 604px   ;
     background-color: #EFEFEF;
     padding: 86px 0 74px 0;
 }
@@ -155,14 +156,13 @@ h2.title {
 }
 
 .expectation .waiting_wrapper {
+    display: flex;
+    justify-content: space-around;
     margin-top: 45px;
 }
 
 .expectation .waiting_wrapper .waiting_item {
-    display: inline-block;
     width: 339px;
-    vertical-align: top;
-    margin: 0 15px;
 }
 
 .expectation .waiting_wrapper .waiting_item .waiting_descr {
@@ -172,10 +172,43 @@ h2.title {
     font-family: Roboto;
     font-style: normal;
     font-weight: 300;
-    font-size: 15px;
+    font-size: 16px;
 
 }
 
 .expectation .waiting_wrapper .waiting_item .waiting_img {
     width: 100%;
+}
+
+
+.optimization .optimization_header {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    padding: 109px 0 0 391px;
+    text-transform: uppercase;
+    color: #299CBD;
+}
+
+.optimization .optimization_text {
+    font-family: 'Roboto';
+    font-style: normal;
+    padding-left: 391px;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 27px;
+    color: #4A4A4A;
+}
+
+.optimization .optimization_text span {
+    font-weight: bold;
+}
+
+.optimization .optimization_img {
+    position: absolute;
+    top: 47px;
+    left: -240px;
+    z-index: -1;
+
 }
