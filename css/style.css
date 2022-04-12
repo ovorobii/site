@@ -118,3 +118,64 @@ h2.title {
     margin: 0 auto;
     margin-top: 13px;
 }
+
+.expectation {
+    height: 604px   ;
+    background-color: #EFEFEF;
+    padding: 86px 0 74px 0;
+}
+
+.expectation .waiting_header {
+    
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.expectation .waiting_divider {
+    margin: 0 auto;
+    margin-top: 18px;
+    width: 220px;
+    height: 5px;
+    background-color: #F9BF3B;
+    
+}
+
+.expectation .waiting_subheader {
+    margin-top: 17px;
+    font-family: Roboto;
+    color: #4a4a4a;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    text-align: center;
+}
+
+.expectation .waiting_wrapper {
+    margin-top: 45px;
+}
+
+.expectation .waiting_wrapper .waiting_item {
+    display: inline-block;
+    width: 339px;
+    vertical-align: top;
+    margin: 0 15px;
+}
+
+.expectation .waiting_wrapper .waiting_item .waiting_descr {
+    margin-top: 33px;
+    text-align: center;
+    color: #4A4A4A;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+
+}
+
+.expectation .waiting_wrapper .waiting_item .waiting_img {
+    width: 100%;
+}
